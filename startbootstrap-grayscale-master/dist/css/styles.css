@@ -8845,11 +8845,13 @@ textarea.form-control-lg {
   .d-md-table-cell {
     display: table-cell !important;
   }
-
+  #boxes{
+    background-color: #fdbcb4;
+  }
   .d-md-flex {
     display: flex !important;
   }
-
+  
   .d-md-inline-flex {
     display: inline-flex !important;
   }
@@ -11629,8 +11631,9 @@ body {
   }
 }
 .projects-section .project-text {
+  font-weight: bold;
   padding: 3rem;
-  font-size: 90%;
+  font-size: 120%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
